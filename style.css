@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f24;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.board {
+  padding: 0;
+  /* margin-top: 34px; */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.wrapper {
+  display: flex;
+  /* text-align: left; */
+  align-items: center;
+  height: 40px;
+  max-height: 40px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.text {
+  font-weight: bold;
+  color: white;
+  font-size: 1.25rem;
+}
+.score-text::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 1px;
+  background-color: rgb(104, 103, 103);
+  /* border: 1px solid white; */
+  top: 0;
+  margin-left: 6.9rem;
+  /* margin-top: -5px; */
+}
+.timer {
+  margin: 0 auto;
+}
